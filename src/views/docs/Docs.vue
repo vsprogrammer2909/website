@@ -1,5 +1,3 @@
 <template>
-    <section class="content has-gap">
-        <router-view></router-view>
-    </section>
+    <router-view></router-view>
 </template>

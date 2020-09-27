@@ -1,11 +1,13 @@
 <template>
     <div class="accordion" :class="{ 'is-active': show }">
         <div class="flexbox is-spaced" @click="toggle">
-            <span class="text is-capitalize">{{ text }}</span>
+            <span class="text is-capitalize">{{ title }}</span>
             <box-icon name="chevron-down"></box-icon>
         </div>
 
-        <slot></slot>
+        <ul>
+            <slot></slot>
+        </ul>
     </div>
 </template>
 
@@ -14,7 +16,7 @@ import { ref, computed } from 'vue'
 
 export default {
     props: {
-        text: String,
+        title: String
     },
 
     setup() {
