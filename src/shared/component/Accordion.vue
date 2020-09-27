@@ -2,7 +2,7 @@
     <div class="accordion" :class="{ 'is-active': show }">
         <div class="flexbox is-spaced" @click="toggle">
             <span class="text is-capitalize">{{ title }}</span>
-            <box-icon name="chevron-down"></box-icon>
+            <box-icon name="chevron-down" color="#ccc"></box-icon>
         </div>
 
         <ul>

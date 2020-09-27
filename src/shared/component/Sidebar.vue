@@ -3,18 +3,19 @@
         <header class="navbar is-sticky">
             <div class="brand flexbox is-spaced">
                 <a href="/">
-                    <img src="/favicon.ico" alt="logo">
+                    <img id="logo" src="/logo.png" alt="logo">
                 </a>
 
-                <div class="hide-md">
+                <a class="hide-md">
                     <box-icon name="x" @click="toggleSidebar"></box-icon>
-                </div>
+                </a>
             </div>
         </header>
 
         <menu>
             <nav>
                 <ul>
+                    <li><a href="/" class="is-capitalize">home</a></li>
                     <li><a href="/usage" class="is-capitalize">usage</a></li>
                     <li><a href="/download" class="is-capitalize">download</a></li>
                 </ul>
@@ -82,3 +83,9 @@ export default {
     }
 }
 </script>
+
+<style lang="scss" scoped>
+#logo {
+    height: 2rem;
+}
+</style>
