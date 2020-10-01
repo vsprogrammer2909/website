@@ -21,6 +21,7 @@
             <div class="buttons is-attached">
                 <a href="https://github.com/ekucss/eku" rel="noopener" target="_blank" class="button is-small">
                     <box-icon name="github" type="logo" size="1rem"></box-icon>
+                    <span>Star</span>
                 </a>
                 <div class="button is-static is-small">{{ stars > 99 ? "+99" : stars }}</div>
             </div>

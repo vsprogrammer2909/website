@@ -1,5 +1,5 @@
 <template>
-    <main class="page">
+    <main class="page has-navbar">
         <sidebar></sidebar>
         <navbar></navbar>
 

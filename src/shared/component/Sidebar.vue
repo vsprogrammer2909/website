@@ -3,7 +3,7 @@
         <header class="navbar is-sticky">
             <div class="brand flexbox is-spaced">
                 <a href="/">
-                    <img id="logo" src="/logo.png" alt="logo">
+                    <img id="logo" src="../../assets/logo.png" alt="logo">
                 </a>
 
                 <a class="hide-md">
@@ -16,8 +16,18 @@
             <nav>
                 <ul>
                     <li><a href="/" class="is-capitalize">home</a></li>
-                    <li><a href="/usage" class="is-capitalize">usage</a></li>
                     <li><a href="/download" class="is-capitalize">download</a></li>
+                </ul>
+            </nav>
+
+            <hr>
+
+            <nav>
+                <h6 class="is-uppercase is-small">usage</h6>
+
+                <ul>
+                    <li><a href="/themes" class="is-capitalize">themes</a></li>
+                    <li><a href="/examples" class="is-capitalize">examples</a></li>
                 </ul>
             </nav>
 
